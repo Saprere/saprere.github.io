@@ -31,11 +31,14 @@
         .image-container {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin-bottom: 1rem;
         }
         .image-container img {
             width: 48%;
             height: auto;
+            object-fit: contain;
+            max-height: 300px; /* Adjust this value as needed */
         }
     </style>
 </head>
@@ -70,7 +73,7 @@
 
             <figure>
                 <img src="images/metahumanafterall.png" alt="MetaHumanAfterAll Dataset Sample">
-                <figcaption>Figure: Sample images from the MetaHumanAfterAll dataset, showcasing diverse synthetic humans and emotions</figcaption>
+                <figcaption>Figure: Sample images from the MetaHumanAfterAll dataset, showcasing diverse synthetic humans and emotions from different robot viewpoints.</figcaption>
             </figure>
 
             <h3>Study Overview</h3>
