@@ -7,40 +7,34 @@ body {
     margin: auto;
 }
 header {
-    background-color: #f4f4f4;
-    padding: 1rem;
-    text-align: center;
-}
-.project {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1rem;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-.image-container img {
-    width: 48%;
-    height: auto;
-    object-fit: contain;
-    max-height: 300px;
-}
-h1, h2, h3 { text-align: center; }
-p { text-align: justify; }
-body.dark-mode {
-    background-color: #333;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
     color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
-.dark-mode a {
-    color: #9cf;
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+/* Ajustement pour le mode sombre */
+body.dark-mode header {
+    background: linear-gradient(135deg, #1a2a3a, #2980b9);
+}
+
+/* Styles existants... */
 
 /* Ajout des styles pour le bouton "Back to Top" */
 #back-to-top {
@@ -77,5 +71,74 @@ body.dark-mode {
 
 #dark-mode-toggle:hover {
     background-color: #555;
+}
+
+/* Styles améliorés pour le sommaire */
+#table-of-contents {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#table-of-contents h2 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#table-of-contents ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#table-of-contents li {
+    margin-bottom: 10px;
+}
+
+#table-of-contents a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s ease;
+}
+
+#table-of-contents a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+/* Ajustement pour le mode sombre */
+body.dark-mode #table-of-contents {
+    background-color: #2a2a2a;
+    border-color: #444;
+}
+
+body.dark-mode #table-of-contents h2 {
+    color: #fff;
+    border-bottom-color: #555;
+}
+
+body.dark-mode #table-of-contents a {
+    color: #9cf;
+}
+
+body.dark-mode #table-of-contents a:hover {
+    color: #bdf;
+}
+
+/* Ajustement du style global pour le mode sombre */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #6ab0de;
+}
+
+body.dark-mode a:hover {
+    color: #8bc4ea;
 }
 
