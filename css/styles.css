@@ -120,12 +120,12 @@ header p {
 
 #table-of-contents a {
     text-decoration: none;
-    color: #0066cc;
+    color: #555;
     transition: color 0.3s ease;
 }
 
 #table-of-contents a:hover {
-    color: #004080;
+    color: #222;
     text-decoration: underline;
 }
 
