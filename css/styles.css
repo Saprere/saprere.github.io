@@ -113,7 +113,7 @@ body.dark-mode #table-of-contents {
 }
 
 body.dark-mode #table-of-contents h2 {
-    color: #e0e0e0;
+    color: #ffffff; /* Changé de #e0e0e0 à #ffffff pour un blanc pur */
     border-bottom-color: #444;
 }
 
