@@ -109,12 +109,12 @@ header p {
 /* Ajustement pour le mode sombre */
 body.dark-mode #table-of-contents {
     background-color: #2a2a2a;
-    border-color: #fff;
+    border-color: #333;
 }
 
 body.dark.mode #table-of-contents h2 {
     margin-top: 0;
-    color: #ddd;
+    color: #9e2d2d;
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
 }
