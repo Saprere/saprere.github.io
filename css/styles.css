@@ -129,11 +129,11 @@ body.dark-mode #table-of-contents h2 {
     border-bottom-color: #555;
 }
 
-body.dark-mode #table-of-contents a {
+body.dark.mode #table-of-contents a {
     color: #9cf;
 }
 
-body.dark-mode #table-of-contents a:hover {
+body.dark.mode #table-of-contents a:hover {
     color: #bdf;
 }
 
@@ -175,5 +175,23 @@ main section h2 {
 body.dark-mode main section h2 {
     color: #e0e0e0;
     border-bottom-color: #444;
+}
+
+figure {
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.5em;
+    font-style: italic;
 }
 
