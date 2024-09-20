@@ -11,6 +11,8 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
         header {
             background-color: #f4f4f4;
@@ -22,6 +24,10 @@
             border-bottom: 1px solid #ccc;
             padding-bottom: 1rem;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -32,22 +38,40 @@
 
     <main>
         <section class="project">
-            <h2>Project 1 Title</h2>
-            <p>Brief description of your first project and its interesting results.</p>
-            <img src="path/to/project1-image.jpg" alt="Project 1 Image">
-        </section>
+            <h2>Impact of Robot's Physical Characteristics on Social Cues Estimate Quality</h2>
+            <p>This project investigates how robot physical characteristics affect the quality of social cue estimation in human-robot interactions. Using a synthetic dataset called EmoYearBook, we analyzed the effects of robot size, angle, and distance on emotion detection accuracy.</p>
+            
+            <h3>Key Findings:</h3>
+            <ul>
+                <li>Larger robots (adultSize category) consistently outperform smaller ones in emotion detection accuracy.</li>
+                <li>Optimal configurations for emotion detection include moderate distances (200 cm) and frontal angles (0 degrees).</li>
+                <li>Complex interactions exist between robot size, distance, and angle, affecting model performance.</li>
+            </ul>
 
-        <section class="project">
-            <h2>Project 2 Title</h2>
-            <p>Brief description of your second project and its interesting results.</p>
-            <img src="path/to/project2-image.jpg" alt="Project 2 Image">
+            <h3>Visualizations:</h3>
+            <figure>
+                <img src="plots/confidence_box_plot_robotsize.png" alt="Confidence Box Plot of Chosen Emotion Scores per Robot Size">
+                <figcaption>Figure 1: Confidence Box Plot of Chosen Emotion Scores per Robot Size</figcaption>
+            </figure>
+
+            <figure>
+                <img src="plots/1d_heatmap_accuracy_robot.png" alt="One-Dimensional Heatmap of Mean Accuracies Across Robot Characteristics Groups">
+                <figcaption>Figure 2: One-Dimensional Heatmap of Mean Accuracies Across Robot Characteristics Groups</figcaption>
+            </figure>
+
+            <figure>
+                <img src="plots/2d_heatmap_accuracy_robot_characteristics.png" alt="Two-Dimensional Heatmap of Mean Accuracies of Robot Characteristics Groups">
+                <figcaption>Figure 3: Two-Dimensional Heatmap of Mean Accuracies of Robot Characteristics Groups</figcaption>
+            </figure>
+
+            <p>This study provides valuable insights for the design and deployment of social robots, emphasizing the need to consider physical characteristics in optimizing emotion detection capabilities.</p>
         </section>
 
         <!-- Add more project sections as needed -->
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Lucas Represa. All rights reserved.</p>
     </footer>
 </body>
 </html>
