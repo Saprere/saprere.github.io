@@ -40,6 +40,15 @@
             object-fit: contain;
             max-height: 300px; /* Adjust this value as needed */
         }
+        h1, h2, h3 { text-align: center; }
+        p { text-align: justify; }
+        body.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .dark-mode a {
+            color: #9cf;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +56,16 @@
         <h1>Unreal-HRI</h1>
         <p>Lucas Represa</p>
     </header>
+
+    <nav id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#methodology">Methodology</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
 
     <main>
         <section class="project">
@@ -115,5 +134,7 @@
         <p>&copy; 2024 Lucas Represa. All rights reserved.</p>
         <p>Project conducted under the supervision of Pr. Salzmann <a href="https://www.epfl.ch/labs/cvlab/" target="_blank">(EPFL, CVLAB)</a> and Dr. Thomas Janssoone <a href="https://enchanted.tools" target="_blank">(Enchanted Tools)</a>.</p>
     </footer>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
 </body>
 </html>
