@@ -113,11 +113,11 @@ body.dark-mode #table-of-contents {
 }
 
 body.dark.mode #table-of-contents h2 {
-    color: #ddd;
+    color: #fff;
 }
 
 body.dark-mode #table-of-contents a {
-    color: #fff;
+    color: #ddd;
 }
 
 body.dark-mode #table-of-contents a:hover {
