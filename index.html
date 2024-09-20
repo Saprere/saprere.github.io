@@ -28,6 +28,15 @@
             max-width: 100%;
             height: auto;
         }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .image-container img {
+            width: 48%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -39,7 +48,28 @@
     <main>
         <section class="project">
             <h2>Impact of Robot's Physical Characteristics on Social Cues Estimate Quality</h2>
-            <p>This project investigates how robot physical characteristics affect the quality of social cue estimation in human-robot interactions. Using a synthetic dataset called EmoYearBook, we analyzed the effects of robot size, angle, and distance on emotion detection accuracy.</p>
+            
+            <h3>Project Origin</h3>
+            <p>This project was born from the observation that traditional computer vision face algorithms, such as Haar Cascade, often fail when applied to small robots. The unique perspectives and limitations of these robots create challenges in accurately detecting and interpreting human facial expressions.</p>
+            
+            <div class="image-container">
+                <img src="images/metahuman_fusion.png" alt="MetaHuman Fusion">
+                <img src="images/robot_sizes.png" alt="Robot Sizes">
+            </div>
+            <p>The images above illustrate the concept: on the left, we see the diversity of human faces created using MetaHuman technology, and on the right, the various sizes of robots considered in this study.</p>
+
+            <h3>The MetaHumanAfterAll Dataset</h3>
+            <p>To address the limitations of existing datasets and better understand the challenges faced by robots of different sizes, we created the "MetaHumanAfterAll" dataset. This synthetic dataset comprises approximately 14,000 images of diverse virtual humans displaying seven basic emotions. Key features include:</p>
+            <ul>
+                <li>66 Synthetic Humans with diverse attributes</li>
+                <li>Three angles: -45°, 0°, and 45°</li>
+                <li>Three distances: 50 cm, 100 cm, and 200 cm</li>
+                <li>Four robot sizes: babySize (42.0 cm), dogSize (89.0 cm), childSize (120.0 cm), and adultSize (170.0 cm)</li>
+            </ul>
+            <p>This dataset provides a comprehensive resource for training and evaluating emotion recognition models in human-robot interaction scenarios.</p>
+
+            <h3>Study Overview</h3>
+            <p>Using the MetaHumanAfterAll dataset, we investigated how robot physical characteristics affect the quality of social cue estimation in human-robot interactions. We analyzed the effects of robot size, angle, and distance on emotion detection accuracy.</p>
             
             <h3>Key Findings:</h3>
             <ul>
@@ -71,7 +101,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Lucas Represa. All rights reserved.</p>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
