@@ -132,7 +132,7 @@ header p {
 /* Ajustement pour le mode sombre */
 body.dark-mode #table-of-contents {
     background-color: #2a2a2a;
-    border-color: #444;
+    border-color: #e3e0e0;
 }
 
 body.dark.mode #table-of-contents a {
