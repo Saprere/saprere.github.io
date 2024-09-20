@@ -32,6 +32,15 @@ header p {
 /* Ajustement pour le mode sombre */
 body.dark-mode header {
     background: linear-gradient(135deg, #1a2a3a, #2980b9);
+    color: #e0e0e0; /* Texte plus clair pour le mode sombre */
+}
+
+body.dark-mode header h1 {
+    color: #ffffff; /* Titre en blanc pur pour un meilleur contraste */
+}
+
+body.dark-mode header p {
+    color: #cccccc; /* Sous-titre légèrement plus foncé que le titre */
 }
 
 /* Styles existants... */
@@ -140,5 +149,31 @@ body.dark-mode a {
 
 body.dark-mode a:hover {
     color: #8bc4ea;
+}
+
+/* Style pour les sections principales */
+main section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body.dark-mode main section {
+    background-color: #2a2a2a;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+main section h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+body.dark-mode main section h2 {
+    color: #e0e0e0;
+    border-bottom-color: #444;
 }
 
