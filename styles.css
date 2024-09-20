@@ -41,3 +41,41 @@ body.dark-mode {
 .dark-mode a {
     color: #9cf;
 }
+
+/* Ajout des styles pour le bouton "Back to Top" */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
+
+/* Styles pour le bouton de mode sombre */
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #555;
+}
+
