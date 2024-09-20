@@ -116,14 +116,6 @@ body.dark.mode #table-of-contents h2 {
     color: #ddd;
 }
 
-body.dark.mode #table-of-contents a {
-    color: #6ab0de;
-}
-
-body.dark.mode #table-of-contents a:hover {
-    color: #8bc4ea;
-}
-
 /* Ajustement du style global pour le mode sombre */
 body.dark-mode {
     background-color: #1a1a1a;
